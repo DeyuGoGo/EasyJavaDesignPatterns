@@ -2,7 +2,7 @@ package strategy;
 
 import java.util.logging.Logger;
 
-import tuil.JavaLog;
+import util.JavaLog;
 
 public class NoRun implements MoveBehavior{
 
