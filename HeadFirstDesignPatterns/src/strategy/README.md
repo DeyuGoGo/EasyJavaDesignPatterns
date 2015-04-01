@@ -1,6 +1,3 @@
-# EasyJavaDesignPatterns
-EasyJavaDesignPatterns
-
 ##Strategy Pattern
 
 ____
