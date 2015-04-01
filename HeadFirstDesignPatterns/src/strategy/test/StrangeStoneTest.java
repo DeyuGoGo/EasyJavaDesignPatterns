@@ -1,4 +1,4 @@
-package test;
+package strategy.test;
 
 import org.junit.Test;
 
