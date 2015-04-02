@@ -2,7 +2,7 @@ package strategy;
 
 import util.JavaLog;
 
-public class Try {
+public class Go {
 
 	public static void main(String[] args) {
 		JavaLog.d("Test Log ");

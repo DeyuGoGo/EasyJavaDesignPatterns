@@ -11,4 +11,5 @@ public abstract class Monster {
 	public void move(){
 		moveBehavior.move();
 	}
+	public abstract String getName(); 
 }
