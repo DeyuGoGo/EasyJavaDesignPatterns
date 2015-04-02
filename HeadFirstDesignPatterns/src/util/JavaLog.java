@@ -10,4 +10,7 @@ public class JavaLog {
 		if(isNeedD)System.out.println(Log);
 	}
 
+	public static void e(String Log){
+		if(isNeedE)System.out.println(Log);
+	}
 }

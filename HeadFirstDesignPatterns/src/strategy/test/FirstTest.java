@@ -1,6 +1,4 @@
-package test;
-
-import static org.junit.Assert.*;
+package strategy.test;
 
 import org.junit.Test;
 
