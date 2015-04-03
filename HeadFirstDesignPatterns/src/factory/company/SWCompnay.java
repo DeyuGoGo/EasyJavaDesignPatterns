@@ -2,7 +2,6 @@ package factory.company;
 
 import factory.project.SoftwareProject;
 
-// this abstract factory to create Software
 public abstract class SWCompnay {
 
 //	Factory method let child imp 
