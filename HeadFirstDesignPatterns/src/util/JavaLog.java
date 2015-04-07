@@ -3,14 +3,14 @@ package util;
 
 public class JavaLog {
 	
-	private static final boolean isNeedD = true;
-	private static final boolean isNeedE = true;
+	private static final boolean isNeedDeBug = true;
+	private static final boolean isNeedError = true;
 	
 	public static void d(String Log){
-		if(isNeedD)System.out.println(Log);
+		if(isNeedDeBug)System.out.println(Log);
 	}
 
 	public static void e(String Log){
-		if(isNeedE)System.out.println(Log);
+		if(isNeedError)System.out.println(Log);
 	}
 }
