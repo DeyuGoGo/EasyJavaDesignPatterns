@@ -6,7 +6,7 @@ import util.JavaLog;
 
 public class Team extends Brave{
 	
-	private ArrayList<Brave> braves = new ArrayList<Brave>();
+	protected ArrayList<Brave> braves = new ArrayList<Brave>();
 	
 	public Team(String name) {
 		this.name = name;
