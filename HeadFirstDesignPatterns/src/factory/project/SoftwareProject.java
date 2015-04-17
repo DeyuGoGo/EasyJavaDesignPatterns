@@ -1,13 +1,13 @@
 package factory.project;
 
-import factory.client.ClientCode;
+import factory.client.ClientCoder;
 import factory.cloud.CloudCode;
 import factory.firmware.FirmwareCode;
 import factory.pm.PM;
 
 public abstract class SoftwareProject {
 	protected CloudCode mCloudCode;
-	protected ClientCode mClientCode;
+	protected ClientCoder mClientCode;
 	protected FirmwareCode mFirmwareCode;
 	protected PM mPm;
 	public SoftwareProject(PM pm) {

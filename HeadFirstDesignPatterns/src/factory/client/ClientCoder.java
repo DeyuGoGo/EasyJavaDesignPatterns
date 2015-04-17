@@ -1,5 +1,5 @@
 package factory.client;
 
-public interface ClientCode {
+public interface ClientCoder {
 	public void Go();
 }
