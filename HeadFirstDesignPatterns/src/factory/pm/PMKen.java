@@ -1,6 +1,6 @@
 package factory.pm;
 
-import factory.client.ClientCode;
+import factory.client.ClientCoder;
 import factory.client.EngineerJay;
 import factory.cloud.CloudCode;
 import factory.cloud.EngineerLeo;
@@ -15,7 +15,7 @@ public class PMKen implements PM{
 	}
 
 	@Override
-	public ClientCode createClientCode() {
+	public ClientCoder createClientCode() {
 		return new EngineerJay();
 	}
 
