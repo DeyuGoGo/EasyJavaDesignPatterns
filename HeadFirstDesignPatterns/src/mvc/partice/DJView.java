@@ -48,7 +48,6 @@ public class DJView implements ActionListener , BeatObserver , BPMObserver{
 		bpmOutputLabel = new JLabel("offline" , SwingConstants.CENTER);
 		beatBar = new BeatBar();
 		beatBar.setValue(0);
-		JPanel bpmPanel = new JPanel(new GridLayout(2,1));
 	}
 
 	@Override

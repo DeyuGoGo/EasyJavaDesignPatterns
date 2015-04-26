@@ -2,12 +2,11 @@ package mvc;
 
 public class NumberController implements NumberControllerInterface{
 
-	private SimpleNumberView view ;
 	private NumberModelInterface model;
 	public NumberController(NumberModelInterface model) {
 		this.model = model;
 		model.init();
-		view = new SimpleNumberView(model, this);
+		new SimpleNumberView(model, this);
 	}
 	@Override
 	public void increase() {
