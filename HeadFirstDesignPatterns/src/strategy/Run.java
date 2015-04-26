@@ -1,6 +1,6 @@
 package strategy;
 
-import tuil.JavaLog;
+import util.JavaLog;
 
 public class Run implements MoveBehavior{
 

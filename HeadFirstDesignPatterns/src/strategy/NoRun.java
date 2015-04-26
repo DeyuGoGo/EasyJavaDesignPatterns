@@ -1,8 +1,6 @@
 package strategy;
 
-import java.util.logging.Logger;
-
-import tuil.JavaLog;
+import util.JavaLog;
 
 public class NoRun implements MoveBehavior{
 
@@ -10,6 +8,4 @@ public class NoRun implements MoveBehavior{
 	public void move() {
 		JavaLog.d("No Run");
 	}
-
-	
 }

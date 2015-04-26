@@ -7,4 +7,9 @@ public class Slime extends Monster{
 	public Slime(MoveBehavior moveBehavior){
 		this.moveBehavior = moveBehavior;
 	}
+	@Override
+	public String getName() {
+		return "¥vµÜ©i";
+	}
+	
 }
